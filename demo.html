@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="linelip.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			.demo {width: 200px; /* 多行文本外层盒子，demo仅提供需要的宽度信息。*/
+			border:1px solid #c1c1c1; margin:20px auto; font-size:14px;} 
+			/*** 主要样式代码，可作为参考使用 ***/
+			.linelip {overflow: hidden;}
+			.elip2 {height:40px; line-height:20px;}
+			.elip3 {height:60px; line-height:20px;}
+		</style>
+	</head>
+	<body>
+		<div class="demo linelip elip2">文本文本文本文本文本文文本文本文本文本文本文本文本文本文本本文本文本文本</div>
+		<div class="demo linelip elip3">文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本</div>
+	</body>
+	<script type="text/javascript">
+		linelip(2,"elip2");
+		linelip(3,"elip3");
+	</script>
+</html>
