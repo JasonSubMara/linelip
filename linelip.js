@@ -1,4 +1,6 @@
-/**
+/** ! 
+ * linelip.js V1.0.0 | MIT License | https://github.com/JasonSubMara/linelip
+ * Copyright 2019, JasonSubMara <jie.yr127@gmail.com>
  * @description Multiline text overflow ellipsis
  * @param {Object} line.
  * @param {Object} element.
@@ -24,4 +26,4 @@ function linelip(lineNum, tagele) {
 		}
 		element.innerHTML = content;
 	}
-}	
+}
