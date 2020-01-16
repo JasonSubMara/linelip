@@ -1,6 +1,6 @@
 {
   "name": "linelip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Multiline text overflow ellipsis",
   "main": "index.js",
   "scripts": {
