@@ -13,7 +13,6 @@ function linelip(lineNum, tagele) {
 		/* 获取原文本 */
 		var text = element.textContent;
 		var textarr = text.split("");
-		console.log(textarr.length)
 		/* 临时存放数值 */
 		var num1 = 0;
 		for (var j = 0; j < textarr.length; j ++){
@@ -43,14 +42,11 @@ function linelip(lineNum, tagele) {
 		var lastIndex = totalTextLen - totalStrNum;
 		/* 定义最终文本截取位置 */
 		var lastplace = 11 - lastIndex;
-		console.log(text)
-		console.log(lastplace)
 		if (totalTextLen > totalStrNum) {
 			content = text.slice(0, lastplace).concat("...");
 		}else {
 			content = text;
 		}
-		console.log(content)
 		element.innerHTML = content;
 	}
 
