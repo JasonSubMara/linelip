@@ -1,5 +1,10 @@
 # linelip
+
+[](https://img.shields.io/github/license/JasonSubMara/linelip)
+[](https://img.shields.io/github/stars/JasonSubMara/linelip)
+[](https://img.shields.io/github/repo-size/JasonSubMara/linelip)
 Multiline text overflow ellipsis
+
 
 ### Date 2020-01-02
 > 更新说明：
