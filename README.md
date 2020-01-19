@@ -1,8 +1,9 @@
 # linelip
 
-[](https://img.shields.io/github/license/JasonSubMara/linelip)
-[](https://img.shields.io/github/stars/JasonSubMara/linelip)
-[](https://img.shields.io/github/repo-size/JasonSubMara/linelip)
+![](https://img.shields.io/github/license/JasonSubMara/linelip)
+![](https://img.shields.io/github/stars/JasonSubMara/linelip)
+![](https://img.shields.io/github/repo-size/JasonSubMara/linelip)
+
 Multiline text overflow ellipsis
 
 
