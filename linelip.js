@@ -49,5 +49,4 @@ function linelip(lineNum, tagele) {
 		}
 		element.innerHTML = content;
 	}
-
 }
